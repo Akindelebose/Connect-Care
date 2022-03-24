@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1440px;
+    height: 2600px
+    text-align: center;
+} 
+.text1{
+   width: 71.67px
+   height: 68.08px;
+   
+}
+h2{
+    margin-bottom: 90px;
+}
+.give ::placeholder {
+color: #0066FFC9;
+}
+.give ::placeholder:hover{
+    text-decoration: underline;
+    color: #0066FFC9 ;
+}
+@media screen {
+    max-width: 50%;
+     
+}
+
